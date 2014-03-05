@@ -1,4 +1,4 @@
-<div class="panel" style="height: 75px;">
+<div class="panel" style="height: 90px;">
     <div class="row">
         <p style="text-align: center;">powered by wall-flower<small></small></p>
         <p style="text-align: center;"><small>♥ Do have faith in what you're doing.</small></p>
@@ -7,12 +7,15 @@
 <div id="myModal" class="reveal-modal" data-reveal>
     <div class="row">
         <div class="large-5 columns">
-            <h3>快速加入timeline</h3>
+            <h3>Quickly start Timeline</h3>
         </div>
         <div class="large-5 columns">
-            <input type="text" placeholder="username"/>
-            <input type="password" placeholder="password"/>
-            <button type="submit" class="button">
+            <form action="/reg" method="post">
+                <input name="username" type="text" placeholder="username"/>
+                <input name="password" type="password" placeholder="password"/>
+                <input name="email" type="text" placeholder="email"/>
+                <button type="submit" class="button"/>
+            </form>
         </div>
         <a class="close-reveal-modal">&#215;</a>
     </div>

@@ -21,7 +21,18 @@
         <section class="top-bar-section">
             <!--Right Nav Section -->
             <ul class="right">
-                <li><a data-reveal-id="myModal" data-reveal href="#">注册</a></li>
+
+                <% if(!user) { %>
+                <li><a data-reveal-id="myModal" data-reveal href="#">Sign Up</a></li>
+                <% }else{ %>
+
+
+
+                <li><a href="#"><%= user.username %></a></li>
+                <li><a href="/logout">注销</a></li>
+                <% } %>
+
+
             </ul>
 
             <!-- Left Nav Section -->

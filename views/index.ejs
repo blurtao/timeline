@@ -6,7 +6,7 @@
             <div class="panel radius">
                 <div class="row">
                     <div class="large-12 columns">
-                        <textarea id="content" name="content" placeholder="说点什么吧"></textarea>
+                        <textarea id="content" name="content" placeholder="say something..."></textarea>
                         <button id="content_sub" type="submit" class="button" />
                     </div>
                 </div>
@@ -15,7 +15,7 @@
             <% posts.forEach(function(post, index){ %>
             <div class="panel radius" id="timeline_panel">
                 <p><%= post.content %></p>
-                -<span style="color:#777777">by <a href="#">user</a></span>
+                -<span style="color:#777777">by <a href="#"><%= post.username %></a></span>
                 <span class="floatRightSpan"><%= post.time.minute %></span>
             </div>
             <% }) %>
@@ -23,13 +23,21 @@
 
     </div>
     <div class="large-3 columns">
-
+        <% if (!user) { %>
         <div class="panel radius">
-            <input type="text" placeholder="username"/>
-            <input type="password" placeholder="password"/>
-            <button type="submit" class="button" />
+            <form action="/login" method="post">
+                <input name="username" type="text" placeholder="username"/>
+                <input name="password" type="password" placeholder="password"/>
+                <button type="submit" class="button" />
+            </form>
         </div>
+        <% } %>
+        <% if(user){ %>
+        <div class="panel radius">
+            <h3 style="text-align: center">Hello,world:)</h3>
 
+        </div>
+        <% } %>
     </div>
 </div>
 

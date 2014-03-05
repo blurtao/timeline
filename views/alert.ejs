@@ -1,0 +1,17 @@
+<%- include header.ejs %>
+
+<br/>
+<div class="row">
+    <div class="panel radius">
+        <% if(success){%>
+        <p style="text-align: center"><%= success %></p>
+        <% } %>
+        <% if(error){%>
+        <p style="text-align: center"><%= error %></p>
+        <% } %>
+        <br/>
+        <p style="text-align: center"><a href="/">回首页</a></p>
+    </div>
+</div>
+
+<%- include footer.ejs %>

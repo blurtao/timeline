@@ -1,7 +1,8 @@
 var mongodb = require('./db');
 
-function Post(content){
+function Post(content, username){
     this.content = content;
+    this.username = username;
 }
 
 module.exports = Post;
@@ -18,7 +19,8 @@ Post.prototype.save = function(callback){
     }
     var post = {
         content: this.content,
-        time: time
+        time: time,
+        username: this.username
     }
     mongodb.open(function(err, db){
         if(err){
