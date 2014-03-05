@@ -1,5 +1,8 @@
 
-#content{resize: none;}
+#content{resize: none;height: 96px;margin-bottom: 15px;padding: 5px;}
+#content_sub{margin-bottom: -4px;}
 
 #timeline_panel{font-size: 80%;}
-#timeline_panel .floatRightSpan{float: right;}
+#timeline_panel .floatRightSpan{float: right;color:#777777}
+
+.reveal-modal{display: none;}
