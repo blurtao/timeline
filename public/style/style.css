@@ -1,8 +1,5 @@
-body {
-  padding: 50px;
-  font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
-}
 
-a {
-  color: #00B7FF;
-}
+#content{resize: none;}
+
+#timeline_panel{font-size: 80%;}
+#timeline_panel .floatRightSpan{float: right;}

@@ -1,37 +1,35 @@
 <%- include header.ejs %>
 <br/>
 <div class="row">
-    <ul class="breadcrumbs">
-        <li><a href="#">Timeline</a></li>
-        <li class="current"><a href="#">Index</a></li>
-    </ul>
-</div>
-<div class="row">
     <div class="large-9 columns">
         <form action="post" method="post">
             <div class="panel radius">
                 <div class="row">
                     <div class="large-12 columns">
-                        <label>你在想什么
-                            <textarea name="content" style="height: 91px;" placeholder="说点什么"></textarea>
+                        <label>
+                            <textarea id="content" name="content" style="height: 91px;" placeholder=""></textarea>
                         </label>
-                        <button style="height: 35px!important;line-height: 10px;" type="submit" value="submit" class="button [tiny small large]" />
+                        <button type="submit" class="button [tiny small large]" />
                     </div>
                 </div>
             </div>
+        </form>
             <% posts.forEach(function(post, index){ %>
-            <div class="panel callout radius">
-                <p><%= post.content %></p>-<span style="color:#777777"><%= post.time.date %></span>
+            <div class="panel radius" id="timeline_panel">
+                <p><%= post.content %></p>
+                -<span style="color:#777777">by <a href="#">user</a></span>
+                <span class="floatRightSpan"><%= post.time.minute %></span>
             </div>
             <% }) %>
 
-        </form>
+
     </div>
     <div class="large-3 columns">
         <div class="panel radius">
-
+            <h3 style="text-align: center;">Hello,world:)</h3>
         </div>
     </div>
 </div>
+
 
 <%- include footer.ejs %>
