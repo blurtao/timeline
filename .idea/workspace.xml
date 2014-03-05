@@ -55,7 +55,7 @@
       <file leaf-file-name="footer.ejs" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/views/footer.ejs">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="2" column="64" selection-start="128" selection-end="128" vertical-scroll-proportion="0.06306306" vertical-offset="0" max-vertical-offset="693">
+            <state line="2" column="39" selection-start="103" selection-end="103" vertical-scroll-proportion="0.06306306" vertical-offset="0" max-vertical-offset="693">
               <folding>
                 <element signature="n#style#0;n#div#0;n#!!top" expanded="true" />
                 <element signature="n#style#0;n#p#0;n#div#0;n#div#0;n#!!top" expanded="true" />
@@ -593,7 +593,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/views/footer.ejs">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="2" column="64" selection-start="128" selection-end="128" vertical-scroll-proportion="0.06306306" vertical-offset="0" max-vertical-offset="693">
+        <state line="2" column="39" selection-start="103" selection-end="103" vertical-scroll-proportion="0.06306306" vertical-offset="0" max-vertical-offset="693">
           <folding>
             <element signature="n#style#0;n#div#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#p#0;n#div#0;n#div#0;n#!!top" expanded="true" />
