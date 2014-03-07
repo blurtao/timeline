@@ -32,11 +32,13 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="index.ejs" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="index.ejs" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/views/index.ejs">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="16" column="22" selection-start="658" selection-end="658" vertical-scroll-proportion="-3.1111112" vertical-offset="252" max-vertical-offset="1050">
-              <folding />
+            <state line="34" column="36" selection-start="1526" selection-end="1526" vertical-scroll-proportion="0.8947368" vertical-offset="0" max-vertical-offset="1344">
+              <folding>
+                <element signature="e#702#723#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -44,7 +46,7 @@
       <file leaf-file-name="footer.ejs" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/views/footer.ejs">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="42" column="28" selection-start="1684" selection-end="1684" vertical-scroll-proportion="-28.0" vertical-offset="126" max-vertical-offset="1050">
+            <state line="29" column="0" selection-start="1157" selection-end="1157" vertical-scroll-proportion="-22.555555" vertical-offset="0" max-vertical-offset="777">
               <folding />
             </state>
           </provider>
@@ -98,10 +100,10 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="post.js" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="post.js" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/models/post.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="68" column="20" selection-start="2001" selection-end="2001" vertical-scroll-proportion="0.69454545" vertical-offset="855" max-vertical-offset="1680">
+            <state line="68" column="20" selection-start="2001" selection-end="2001" vertical-scroll-proportion="0.0" vertical-offset="855" max-vertical-offset="1680">
               <folding />
             </state>
           </provider>
@@ -136,11 +138,11 @@
         <option value="$PROJECT_DIR$/views/alert.ejs" />
         <option value="$PROJECT_DIR$/views/header.ejs" />
         <option value="$PROJECT_DIR$/package.json" />
-        <option value="$PROJECT_DIR$/views/index.ejs" />
         <option value="$PROJECT_DIR$/app.js" />
         <option value="$PROJECT_DIR$/routes/index.js" />
-        <option value="$PROJECT_DIR$/views/footer.ejs" />
         <option value="$PROJECT_DIR$/models/post.js" />
+        <option value="$PROJECT_DIR$/views/footer.ejs" />
+        <option value="$PROJECT_DIR$/views/index.ejs" />
       </list>
     </option>
   </component>
@@ -454,7 +456,9 @@
     <entry file="file://$PROJECT_DIR$/views/index.ejs">
       <provider selected="true" editor-type-id="text-editor">
         <state line="34" column="18" selection-start="1326" selection-end="1326" vertical-scroll-proportion="0.0" vertical-offset="315" max-vertical-offset="1050">
-          <folding />
+          <folding>
+            <element signature="e#702#723#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -527,7 +531,9 @@
     <entry file="file://$PROJECT_DIR$/views/index.ejs">
       <provider selected="true" editor-type-id="text-editor">
         <state line="34" column="18" selection-start="1326" selection-end="1326" vertical-scroll-proportion="0.0" vertical-offset="714" max-vertical-offset="1050">
-          <folding />
+          <folding>
+            <element signature="e#702#723#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -615,7 +621,9 @@
     <entry file="file://$PROJECT_DIR$/views/index.ejs">
       <provider selected="true" editor-type-id="text-editor">
         <state line="1" column="7" selection-start="31" selection-end="31" vertical-scroll-proportion="0.0" vertical-offset="21" max-vertical-offset="924">
-          <folding />
+          <folding>
+            <element signature="e#702#723#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -746,24 +754,26 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/views/index.ejs">
+    <entry file="file://$PROJECT_DIR$/models/post.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="16" column="22" selection-start="658" selection-end="658" vertical-scroll-proportion="-3.1111112" vertical-offset="252" max-vertical-offset="1050">
+        <state line="68" column="20" selection-start="2001" selection-end="2001" vertical-scroll-proportion="0.0" vertical-offset="855" max-vertical-offset="1680">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/views/footer.ejs">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="42" column="28" selection-start="1684" selection-end="1684" vertical-scroll-proportion="-28.0" vertical-offset="126" max-vertical-offset="1050">
+        <state line="29" column="0" selection-start="1157" selection-end="1157" vertical-scroll-proportion="-22.555555" vertical-offset="0" max-vertical-offset="777">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/models/post.js">
+    <entry file="file://$PROJECT_DIR$/views/index.ejs">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="68" column="20" selection-start="2001" selection-end="2001" vertical-scroll-proportion="0.69454545" vertical-offset="855" max-vertical-offset="1680">
-          <folding />
+        <state line="34" column="36" selection-start="1526" selection-end="1526" vertical-scroll-proportion="0.8947368" vertical-offset="0" max-vertical-offset="1344">
+          <folding>
+            <element signature="e#702#723#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
