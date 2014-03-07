@@ -41,10 +41,10 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="footer.ejs" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="footer.ejs" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/views/footer.ejs">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="42" column="28" selection-start="1684" selection-end="1684" vertical-scroll-proportion="0.94736844" vertical-offset="126" max-vertical-offset="1050">
+            <state line="42" column="28" selection-start="1684" selection-end="1684" vertical-scroll-proportion="-28.0" vertical-offset="126" max-vertical-offset="1050">
               <folding />
             </state>
           </provider>
@@ -98,10 +98,10 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="post.js" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="post.js" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/models/post.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="71" column="24" selection-start="2178" selection-end="2178" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1764">
+            <state line="68" column="20" selection-start="2001" selection-end="2001" vertical-scroll-proportion="0.69454545" vertical-offset="855" max-vertical-offset="1680">
               <folding />
             </state>
           </provider>
@@ -138,9 +138,9 @@
         <option value="$PROJECT_DIR$/package.json" />
         <option value="$PROJECT_DIR$/views/index.ejs" />
         <option value="$PROJECT_DIR$/app.js" />
-        <option value="$PROJECT_DIR$/models/post.js" />
         <option value="$PROJECT_DIR$/routes/index.js" />
         <option value="$PROJECT_DIR$/views/footer.ejs" />
+        <option value="$PROJECT_DIR$/models/post.js" />
       </list>
     </option>
   </component>
@@ -718,13 +718,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/models/post.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="71" column="24" selection-start="2178" selection-end="2178" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1764">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/package.json">
       <provider selected="true" editor-type-id="text-editor">
         <state line="13" column="18" selection-start="270" selection-end="270" vertical-scroll-proportion="-10.111111" vertical-offset="0" max-vertical-offset="441">
@@ -762,7 +755,14 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/views/footer.ejs">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="42" column="28" selection-start="1684" selection-end="1684" vertical-scroll-proportion="0.94736844" vertical-offset="126" max-vertical-offset="1050">
+        <state line="42" column="28" selection-start="1684" selection-end="1684" vertical-scroll-proportion="-28.0" vertical-offset="126" max-vertical-offset="1050">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/models/post.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="68" column="20" selection-start="2001" selection-end="2001" vertical-scroll-proportion="0.69454545" vertical-offset="855" max-vertical-offset="1680">
           <folding />
         </state>
       </provider>

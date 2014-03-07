@@ -66,11 +66,7 @@ Post.get = function(content, callback){
                     if(err){
                         return callback(err);
                     }
-                    if(doc){
-                        docs.forEach(function(doc){
-                            doc.content = markdown.toHTML(doc.content);
-                        })
-                    }
+
                     callback(null, docs);
             });
         });
