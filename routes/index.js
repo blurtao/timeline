@@ -91,6 +91,9 @@ module.exports = function(app){
         }
         next();
     };
+    app.get('/u/:username', function(req, res){
+        d
+    })
 
 
 };
