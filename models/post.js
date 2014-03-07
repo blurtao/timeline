@@ -57,7 +57,7 @@ Post.get = function(content, callback){
             }
             var query = {};
             if(content){
-                query.content = cotent;
+                query.content = content;
             }
             collection.find(query).sort({
                 time: -1
@@ -67,7 +67,7 @@ Post.get = function(content, callback){
                         return callback(err);
                     }
                     docs.forEach(function(doc){
-                        doc.post = markdown.toHTML(doc.post);
+                        doc.content = markdown.toHTML(doc.content);
                     })
                     callback(null, docs);
             });

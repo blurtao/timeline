@@ -14,7 +14,7 @@
         </form>
             <% posts.forEach(function(post, index){ %>
             <div class="panel radius" id="timeline_panel">
-                <p><%= post.content %></p>
+                <p><%- post.content %></p>
                 -<span style="color:#777777">by <a href="#"><%= post.username %></a></span>
                 <span class="floatRightSpan"><%= post.time.minute %></span>
             </div>

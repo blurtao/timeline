@@ -35,7 +35,7 @@
       <file leaf-file-name="index.ejs" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/views/index.ejs">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="34" column="18" selection-start="1326" selection-end="1326" vertical-scroll-proportion="-26.444445" vertical-offset="0" max-vertical-offset="1050">
+            <state line="16" column="22" selection-start="658" selection-end="658" vertical-scroll-proportion="-6.2222223" vertical-offset="168" max-vertical-offset="1050">
               <folding />
             </state>
           </provider>
@@ -101,7 +101,7 @@
       <file leaf-file-name="post.js" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/models/post.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="69" column="61" selection-start="2109" selection-end="2109" vertical-scroll-proportion="0.76363635" vertical-offset="819" max-vertical-offset="1722">
+            <state line="69" column="20" selection-start="2069" selection-end="2069" vertical-scroll-proportion="0.6690909" vertical-offset="897" max-vertical-offset="1722">
               <folding />
             </state>
           </provider>
@@ -136,10 +136,10 @@
         <option value="$PROJECT_DIR$/models/alert.ejs" />
         <option value="$PROJECT_DIR$/app.js" />
         <option value="$PROJECT_DIR$/views/alert.ejs" />
-        <option value="$PROJECT_DIR$/views/index.ejs" />
         <option value="$PROJECT_DIR$/views/header.ejs" />
         <option value="$PROJECT_DIR$/routes/index.js" />
         <option value="$PROJECT_DIR$/package.json" />
+        <option value="$PROJECT_DIR$/views/index.ejs" />
         <option value="$PROJECT_DIR$/models/post.js" />
       </list>
     </option>
@@ -739,13 +739,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/views/index.ejs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="34" column="18" selection-start="1326" selection-end="1326" vertical-scroll-proportion="-26.444445" vertical-offset="0" max-vertical-offset="1050">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/routes/index.js">
       <provider selected="true" editor-type-id="text-editor">
         <state line="15" column="14" selection-start="445" selection-end="445" vertical-scroll-proportion="0.0" vertical-offset="336" max-vertical-offset="2142">
@@ -760,9 +753,16 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/views/index.ejs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="16" column="22" selection-start="658" selection-end="658" vertical-scroll-proportion="-6.2222223" vertical-offset="168" max-vertical-offset="1050">
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/models/post.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="69" column="61" selection-start="2109" selection-end="2109" vertical-scroll-proportion="0.76363635" vertical-offset="819" max-vertical-offset="1722">
+        <state line="69" column="20" selection-start="2069" selection-end="2069" vertical-scroll-proportion="0.6690909" vertical-offset="897" max-vertical-offset="1722">
           <folding />
         </state>
       </provider>
