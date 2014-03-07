@@ -32,10 +32,10 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="index.ejs" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="index.ejs" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/views/index.ejs">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="34" column="36" selection-start="1526" selection-end="1526" vertical-scroll-proportion="0.8947368" vertical-offset="0" max-vertical-offset="1344">
+            <state line="34" column="36" selection-start="1526" selection-end="1526" vertical-scroll-proportion="-26.444445" vertical-offset="0" max-vertical-offset="1344">
               <folding>
                 <element signature="e#702#723#0" expanded="true" />
               </folding>
@@ -91,10 +91,10 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="app.js" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="app.js" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/app.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="16" column="28" selection-start="399" selection-end="399" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1113">
+            <state line="15" column="38" selection-start="366" selection-end="366" vertical-scroll-proportion="0.38181818" vertical-offset="0" max-vertical-offset="1113">
               <folding />
             </state>
           </provider>
@@ -138,11 +138,11 @@
         <option value="$PROJECT_DIR$/views/alert.ejs" />
         <option value="$PROJECT_DIR$/views/header.ejs" />
         <option value="$PROJECT_DIR$/package.json" />
-        <option value="$PROJECT_DIR$/app.js" />
         <option value="$PROJECT_DIR$/routes/index.js" />
         <option value="$PROJECT_DIR$/models/post.js" />
         <option value="$PROJECT_DIR$/views/footer.ejs" />
         <option value="$PROJECT_DIR$/views/index.ejs" />
+        <option value="$PROJECT_DIR$/app.js" />
       </list>
     </option>
   </component>
@@ -733,13 +733,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="16" column="28" selection-start="399" selection-end="399" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1113">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/models/user.js">
       <provider selected="true" editor-type-id="text-editor">
         <state line="5" column="21" selection-start="144" selection-end="144" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1407">
@@ -770,10 +763,17 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/views/index.ejs">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="34" column="36" selection-start="1526" selection-end="1526" vertical-scroll-proportion="0.8947368" vertical-offset="0" max-vertical-offset="1344">
+        <state line="34" column="36" selection-start="1526" selection-end="1526" vertical-scroll-proportion="-26.444445" vertical-offset="0" max-vertical-offset="1344">
           <folding>
             <element signature="e#702#723#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="15" column="38" selection-start="366" selection-end="366" vertical-scroll-proportion="0.38181818" vertical-offset="0" max-vertical-offset="1113">
+          <folding />
         </state>
       </provider>
     </entry>
