@@ -1,9 +1,6 @@
 var mongodb = require('./db'),
-    markdown = require('markdown').markdown,
-    Ids = require('./ids.js');
-
-function Post(title, content, username){
-    this.title = title
+    markdown = require('markdown').markdown
+function Post(content, username){
     this.content = content;
     this.username = username;
 }
@@ -20,17 +17,8 @@ Post.prototype.save = function(callback){
         minute : date.getFullYear() + "-" + (date.getMonth() + 1) + "-" + date.getDate() + " " +
         date.getHours() + ":" + (date.getMinutes() < 10 ? '0' + date.getMinutes() : date.getMinutes())
     }
-    var id;
-    Ids.getId('posts', function(err, ids){
-        if (err){
-          return ;
-        }
-        id = ids;
-    })
     var post = {
-        title: this.title,
         content: this.content,
-        id: id,
         time: time,
         username: this.username
     }
